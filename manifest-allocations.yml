@@ -7,6 +7,6 @@ applications:
   - route: allocations-pal-senthil.cfapps.io
   path: Applications/AllocationsServer/bin/Release/netcoreapp2.1/publish
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://allocations-pal-senthil.cfapps.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-senthil.cfapps.io
   services:
   - tracker-allocations-database
