@@ -48,6 +48,7 @@ namespace IntegrationTest
                 .Port(8884)
                 .Database("tracker_timesheets_dotnet_test")
                 .SetEnvironmentVariable("REGISTRATION_SERVER_ENDPOINT", _registrationServer.Url())
+                .SetEnvironmentVariable("EUREKA__CLIENT__SHOULDFETCHREGISTRY", "false")
                 .Build();
         }
 
