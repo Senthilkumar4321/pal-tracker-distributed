@@ -4,9 +4,9 @@ applications:
   instances: 1
   memory: 256M
   routes:
-  - route: registration-pal-senthil.apps.pikes.pal.cfapps.io
+  - route: registration-pal-senthil.cfapps.io
   path: Applications/RegistrationServer/bin/Release/netcoreapp2.1/publish
     env:
-    REGISTRATION_SERVER_ENDPOINT: https://registration-pal-senthil.apps.pikes.pal.cfapps.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-senthil.cfapps.io
   services:
   - tracker-registration-database
